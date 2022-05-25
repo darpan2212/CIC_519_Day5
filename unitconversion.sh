@@ -11,15 +11,19 @@ read -p "Enter the conversion type you wanted to perform?" option;
 case $option in
 
 	1)
+		echo "Feet to Inch";
 	;;
 
 	2)
+		echo "Inch to Feet";
 	;;
 
 	3)
+		echo "Feet to Meter;
 	;;
 
 	4)
+		echo "Meter to feet";
 	;;
 
 	*)
